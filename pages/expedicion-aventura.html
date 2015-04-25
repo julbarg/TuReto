@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tu Reto - Aventura</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Tu Reto, Servicios Deportivos">
+        <meta name="keywords" content="Tu, Reto, Expedicion, Aventura, Kayak, Torrentismo,
+              Tirolina, Rapel, Camping, Fortalecimiento, Institucional, Empresarial, 
+              Deportes, Extremos, Discapacidad, Mental, Espeologia, Rafting">
+        <meta name="author" content="Julian Barragan">
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/png" href="../image/icon.png">
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/icon.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/expedicion-aventura.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/menu-mobil.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/font-awesome.css"/>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="../js/jquery.localscroll-1.2.7-min.js"></script>
+        <script type="text/javascript" src="../js/jquery.scrollTo-1.4.2-min.js"></script>
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-55361242-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#list-group').localScroll(800);
+                $('#section_servicios').localScroll(800);
+                $('#panel_menu_mobil').localScroll(800);
+
+                $("#panel_menu_mobil").click(function() {
+                    $("#panel_menu_mobil").slideToggle("slow");
+                });
+                $("#icon_menu").click(function() {
+                    $("#panel_menu_mobil").slideToggle("slow");
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+        <nav id="menu_principal_mobil">        
+            <div id="flip">
+                <div id="icon_menu">
+                    <i class="fa fa-bars fa-3x color_white"></i>
+                </div>                
+            </div>
+            <div id="panel_menu_mobil">
+                <ul class="menu_mobil">
+                    <li class="item_menu_mobil">
+                        <a class="list-group-item " href="../index.html">
+                            <i class="fa fa-home fa-lg"></i>&nbsp;INICIO
+                        </a>
+                    </li>
+                    <li class="item_menu_mobil">
+                        <a class="list-group-item" href="#rapel">
+                            <i class="fa fa-map-marker fa-lg"></i>&nbsp;EXPEDICIÓN AVENTURA
+                        </a> 
+                    </li>
+                    <li class="item_menu_mobil">
+                        <a class="list-group-item" href="servicios.html">
+                            <i class="fa fa-briefcase fa-lg"></i>&nbsp;SERVICIOS
+                        </a> 
+                    </li>
+                    <li class="item_menu_mobil">
+                        <a class="list-group-item" href="../index.html#section_tu_reto">
+                            <i class="fa fa-user fa-lg"></i>&nbsp;TU RETO
+                        </a>
+                    </li>
+                    <li class="item_menu_mobil">
+                        <a class="list-group-item" href="galeria.html">
+                            <i class="fa fa-camera fa-lg"></i>&nbsp;GALERIA
+                        </a>
+                    </li>
+                    <li class="item_menu_mobil">
+                        <a class="list-group-item" href="#contacto">
+                            <i class="fa fa-envelope fa-lg"></i>&nbsp;CONTACTO
+                        </a>
+                    </li> 
+                </ul>
+            </div>
+        </nav>
+        <header id="cabecera">  
+            <nav class="menu_principal menu_principal_servicios">
+                <div class="logo_menu" style="padding: 14px 0; background: #221f20;">
+                    <a href="../index.html">
+                        <img  alt="Tu Reto" src="../image/logo_aventura.png" style="width: 150px !important;">        
+                    </a>
+                    <div id="list-group" class="list-group list-group-servicios">
+                        <a class="list-group-item list-group-item-padding" href="../index.html">
+                            <i class="fa fa-home fa-fw"></i>&nbsp;INICIO
+                        </a>         
+                        <a class="list-group-item list-group-item-padding" href="#rapel">
+                            <i class="fa fa-map-marker fa-fw"></i>&nbsp;EXPEDICIÓN DE AVENTURA
+                        </a>
+                        <a class="list-group-item list-group-item-padding" href="#rapel">
+                            <i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;Rapel
+                        </a>
+                        <a class="list-group-item list-group-item-padding" href="#tirolina">
+                            <i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;Tirolina
+                        </a>
+                        <a class="list-group-item list-group-item-padding" href="#campamento">
+                            <i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;Campamento
+                        </a>
+                        <a class="list-group-item list-group-item-padding" href="#torrentismo">
+                            <i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;Torrentismo
+                        </a>
+                        <a class="list-group-item list-group-item-padding" href="#kayak">
+                            <i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;Kayak
+                        </a>
+                        <a class="list-group-item list-group-item-padding" href="#espeologia">
+                            <i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;Espeologia
+                        </a>
+                        <a class="list-group-item list-group-item-padding" href="#rafting">
+                            <i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;Rafting
+                        </a>
+                        <a class="list-group-item list-group-item-padding" href="#caminata">
+                            <i class="fa fa-chevron-circle-right fa-fw"></i>&nbsp;Caminata al Paramo
+                        </a>
+                        <a class="list-group-item list-group-item-padding" href="servicios.html">
+                            <i class="fa fa-briefcase fa-fw"></i>&nbsp;SERVICIOS
+                        </a>
+                        <a class="list-group-item list-group-item-padding" href="galeria.html">
+                            <i class="fa fa-camera fa-fw"></i>&nbsp;GALERIA
+                        </a>
+                        <a class="list-group-item list-group-item-padding" href="#contacto">
+                            <i class="fa fa-envelope fa-fw"></i>&nbsp;CONTACTO
+                        </a>
+
+                    </div>	
+                </div>      
+            </nav>            
+        </header>
+
+        <section class="section_rapel" id="rapel">
+            <div class="div_aventura_descripcion">
+                <h2 class="titulo_servicios_descripcion">RAPPEL, Altura y Adrenalina</h2>
+                <p class="parrafo_servicios_descripcion">
+                    Anímate a desafiar las alturas, descendiendo en diferentes tipos de desnivel 
+                    vertical con equipos especializados como cuerdas y arneses, utilizando técnicas 
+                    específicas y procedimientos de seguridad.
+
+                    Se desarrolla en el municipio de Sibate Cundinamarca, 
+                    en Lenguaje muisca significa "Derrame de la Laguna", es un lugar maravilloso, 
+                    encantado con la magia de sus atractivos y hermosos paisajes.
+                </p>
+                <h3 class="titulo_secundario">Actividades que Incluye</h3>
+                <ul class="fa-ul itineratio">
+                    <li><i class="fa-li fa fa-check-square"></i>Inicio de trayecto a pie</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Cavernismo</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Actividad de Rappel</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Refrigerio</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Siembra de Árbol</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Regreso al punto de encuentro y fin de la actividad</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Actividades de sensibilización ambiental, orientación deportiva, Rastreo y Acecho.</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Asistencia de Primeros Auxilios</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Reflexión Ciclo del Agua Observación Nacimiento del Agua</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Caminata ecológica sendero del rio aguas claras</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Transporte desde el sitio de encuentro ida-regreso</li>
+                </ul>
+                <ul class="fa-ul itineratio">
+                    <li style="font-size: 18px;"><i class="fa-li fa fa-map-marker fa-lg"></i>Sibate, Cundinamarca Colombia</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_tirolina" id="tirolina">
+            <div class="div_aventura_descripcion">
+                <h2 class="titulo_servicios_descripcion">TIROLINA - CANOPY, Sintiendo El Vacio</h2>
+                <p class="parrafo_servicios_descripcion">
+                    La Tirolina o Canopy es una actividad extrema que consiste en el desplazamiento 
+                    pendiendo de cables que están trazados bien en un escenario al aire libre o 
+                    en bosques entre las ramas de árboles.<br>Es una experiencia cargada de emoción, 
+                    ya que viajar a las alturas a una velocidad considerable, traerá consigo una 
+                    conmoción particular en los osados a participar.                    
+                </p>
+                <h3 class="titulo_secundario">Actividades que Incluye</h3>
+                <ul class="fa-ul itineratio">	
+                    <li><i class="fa-li fa fa-check-square"></i>Inicio de trayecto a pie</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Actividad de Tirolina</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Actividad de Péndulo Humano</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Hidratación</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Guías turísticos </li>
+                    <li><i class="fa-li fa fa-check-square"></i>Actividades de sensibilización ambiental</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Caminata ecológica sendero El Balneario</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Transporte desde el sitio de encuentro ida-regreso</li>
+                </ul>
+                <ul class="fa-ul itineratio">
+                    <li style="font-size: 18px;"><i class="fa-li fa fa-map-marker fa-lg"></i>Sibate, Cundinamarca Colombia</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_campamento" id="campamento">
+            <div class="div_aventura_descripcion">
+                <h2 class="titulo_servicios_descripcion">CAMPAMENTOS, Miles de estrellas</h2>
+                <p class="parrafo_servicios_descripcion">
+                    Un campamento es una actividad en el medio natural, generalmente al aire libre, 
+                    que implica pernoctar una o más veces en una tienda de campaña, carpa o caravana, 
+                    con el fin de disfrutar de la naturaleza o como parte de un recorrido o excursión. 
+                </p>
+                <h3 class="titulo_secundario">Actividades que Incluye</h3>    
+                <ul class="fa-ul itineratio">	
+                    <li><i class="fa-li fa fa-check-square"></i>Campamento de 2 días - 1 noche</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Arribo al municipio de Sibaté ( vereda Delicias)</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Inicio de trayecto a pie</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Cavernismo</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Rappel</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Construcciones rústicas y montaje de Campamento</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Tirolina</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Péndulo Humano</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Caminata ecológica sendero del río aguas claras</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Siembra de árboles</li>
+                    <li><i class="fa-li fa fa-check-square"></i>Regreso al punto de encuentro y fin de la actividad</li>
+                </ul>
+                <ul class="fa-ul itineratio">
+                    <li style="font-size: 18px;"><i class="fa-li fa fa-map-marker fa-lg"></i>Sibate, Cundinamarca Colombia</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_torrentismo" id="torrentismo">
+            <div class="div_aventura_descripcion">
+                <h2 class="titulo_servicios_descripcion">TORRENTISMO, Agua y Vida</h2>
+                <p class="parrafo_servicios_descripcion">
+                    El Torrentismo es una variación del rapel supremamente emocionante, 
+                    una actividad llena de adrenalina y pura emoción. El objetivo es descender 
+                    por cuerda por medio de cascadas de gran altura, lo cual lo hace totalmente extremo. 
+                    Esta actividad te llenará de una gran dosis de adrenalina y deseos de superar los 
+                    retos que la naturaleza te presenta.
+                    Adicionalmente los atractivos turísticos del lugar es un sendero de bosque nativo, 
+                    avistamiento del ciclo del agua evaporación, transpiración y de dos hermosas caídas 
+                    de agua de más de 100 metros de altura.
+                </p>
+                <h3 class="titulo_secundario">Actividades que Incluye</h3>    
+                <ul class="fa-ul itineratio" style="padding-left: 25px;">
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Arribo al municipio de Sibaté (Vereda Peñón)</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Inicio de trayecto a pie</span></li>  						
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Hidratación</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Actividad de Torrentismo 100 metros</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Actividades de sensibilización ambiental, ciclo del agua evaporación -transpiración</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Transporte desde el sitio de encuentro ida-regreso</span></li>
+                </ul>
+                <ul class="fa-ul itineratio">
+                    <li style="font-size: 18px;"><i class="fa-li fa fa-map-marker fa-lg"></i>Sibate, Cundinamarca Colombia</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_kayak" id="kayak">
+            <div class="div_aventura_descripcion">
+                <h2 class="titulo_servicios_descripcion">KAYAK, Aventura en el Agua</h2>
+                <p class="parrafo_servicios_descripcion">
+                    El kayak es un tipo de canoa, en el que el practicante o deportista va sentado mirando hacia el frente, 
+                    en el sentido de la marcha de las corrientes de agua, con un remo de dos palas que lo impulsa.
+                </p>
+                <h3 class="titulo_secundario">Actividades que Incluye</h3>    
+                <ul class="fa-ul itineratio" style="padding-left: 25px;">
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Arribo al Embalse  del Tominé</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Actividad de sensibilización y adaptación al medio acuático.</span></li>  						
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Hidratación</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Actividad de navegación y técnica de remada en Kayak</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Transporte desde el sitio de encuentro ida-regreso</span></li>
+                </ul>
+                <ul class="fa-ul itineratio">
+                    <li style="font-size: 18px;"><i class="fa-li fa fa-map-marker fa-lg"></i>Emablase de Tominé - Guatavita, Cundinamarca Colombia</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_espeologia" id="espeologia">
+            <div class="div_aventura_descripcion">
+                <h2 class="titulo_servicios_descripcion">A Oscuras... ESPELIOLOGÍA.</h2>
+                <p class="parrafo_servicios_descripcion">
+                    Las emociones más atrevidas en contacto con la naturaleza se viven experimentando 
+                    la espeleología, deporte que consiste en la exploración y estudio de cavernas. 
+                    Profundidades recónditas de ocultos laberintos, angostas cuevas. 
+                    Todo un mundo subterráneo donde se esconden diversas cavidades para 
+                    explorar y descubrir secretos del pasado. La espeleología es una actividad 
+                    para realizar en equipo, con un espíritu de aventura y curiosidad.
+                    <br><br>
+                    Las Cuevas del Edén Cunday-Tolima se localizan en la Vereda (La Camelia) en un área 
+                    aproximada de 4 hectáreas, tiene una altura entre 30  a 40 m y una longitud de 40 m. 
+                    El interior de la cueva está conformado por diversos salones y su mayor atractivo 
+                    son las estalactitas, estalagmitas, helititas y la presencia de murciélagos frugívoros. 
+                    <br><br>
+                    El trayecto actual es pernoctar (2) dos horas en la cueva y luego regresar a las vías de acceso.
+                </p>
+                <h3 class="titulo_secundario" style="display:none;">Actividades que Incluye</h3>    
+                <ul class="fa-ul itineratio" style="padding-left: 25px; display: none;">
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Arribo al municipio de Cunday </span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Actividad de sensibilización y adaptación al medio. </span></li>  						
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Onces compartidas</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Trayecto desplazamiento a pie por el río hasta llegar a la cueva del Edén.</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Espeleología.</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Regreso al punto de encuentro y fin de la actividad.</span></li>
+                </ul>
+                <ul class="fa-ul itineratio">
+                    <li style="font-size: 18px;"><i class="fa-li fa fa-map-marker fa-lg"></i>Las Cuevas del Edén Cunday, Tolima, Colombia</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section_rafting" id="rafting">
+            <div class="div_aventura_descripcion">
+                <h2 class="titulo_servicios_descripcion">Atravesando los Rápidos... RAFFTING</h2>
+                <p class="parrafo_servicios_descripcion">
+                    La actividad es un descenso por el río, es una mezcla de adrenalina, 
+                    equilibrio, amor a la naturaleza y pasión por los desafíos. 
+                    El descenso es dirigido por un guía y cada uno de los integrantes son 
+                    provistos de chaleco y casco como medida de seguridad. 
+                    Tobía - Cundinamarca es un lugar ideal para el Rafting ya que el 
+                    paisaje se presta para esta actividad extrema, es un atractivo turístico inigualable.
+                </p>
+                <h3 class="titulo_secundario">Actividades que Incluye</h3>    
+                <ul class="fa-ul itineratio" style="padding-left: 25px;">
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Arribo a Tobía, Cundinamarca</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Caminata ecológica, trayecto a pie hasta llegar al punto de salida del Rafting</span></li>  						
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Actividades especificas en el río</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Actividad de sensibilización y adaptación al medio </span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Hidratación</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Transporte desde el sitio de encuentro ida-regreso</span></li>
+                </ul>
+                <ul class="fa-ul itineratio">
+                    <li style="font-size: 18px;"><i class="fa-li fa fa-map-marker fa-lg"></i>Tobia, Cundinamarca, Colombia</li>
+                </ul>                
+            </div>
+        </section>
+        <section class="section_caminata" id="caminata">
+            <div class="div_aventura_descripcion">
+                <h2 class="titulo_servicios_descripcion">Senderos de vida... CAMINATAS ECOLÓGICAS</h2>
+                <p class="parrafo_servicios_descripcion">
+                    La caminata ecológica es un recorrido por los senderos ecológicos observando y 
+                    disfrutando de la naturaleza en compañía de un guía profesional, quien lo harán 
+                    entrar en contacto con la fauna y flora nativa como lo son las orillas del rio , 
+                    el bosque y la lagunas, los esteros las cuales poseen una gran riqueza natural
+                </p>
+                <h3 class="titulo_secundario">Actividades que Incluye</h3>    
+                <ul class="fa-ul itineratio" style="padding-left: 25px;">
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Arribo al lugar</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Inicio de trayecto a pie por bosque nativo</span></li>  						
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Hidratación</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Actividades de sensibilización ambiental</span></li>
+                    <li><i class="fa-li fa fa-check-square"></i><span class="color_white">Transporte desde el sitio de encuentro ida-regreso</span></li>
+                </ul>
+                <ul class="fa-ul itineratio">
+                    <li style="font-size: 18px;"><i class="fa-li fa fa-map-marker fa-lg"></i>Sibaté, Cundinamarca, Colombia</li>
+                </ul>
+            </div>
+        </section>
+        <footer id="contacto">
+            <div class="contenedor_footer footer_servicios">
+                <div class="informacion">
+                    <h3 class="titulo">Acerca de Nosotros</h3>
+                    <div class="logo">
+                        <img class="img_logo" alt="Tu Reto" src="../image/logo_aventura.png" style="width: 290px;">                                           	
+                    </div>  
+                    <h3 class="informacion_contacto">Rene Barragán - David Ruiz</h3>
+                    <h3 class="informacion_contacto">Web: www.TuReto.co</h3>
+                    <h3 class="informacion_contacto">E-Mail: turetoserviciosdeportivos@outlook.com</h3>
+                    <h3 class="informacion_contacto">E-Mail: info@tureto.co</h3>
+                    <h3 class="informacion_contacto">Celular: 318 421 1563 - 312 522 0747</h3>
+                    <h3 class="informacion_contacto">Bogotá D.C. Colombia</h3>              
+                </div>
+                <div id="tags" class="tags" style="width: 320px; padding: 0">
+                    <h3 class="titulo">Etiquetas</h3>
+                    <a href="servicios.html"><div class="etiqueta">Servicios</div></a>
+                    <a href="../index.html#section_tu_reto"><div class="etiqueta">TuReto</div></a>
+                    <a href="expedicion-aventura.html"><div class="etiqueta">Expedición</div></a>
+                    <a href="expedicion-aventura.html"><div class="etiqueta">Aventura</div></a>
+                    <a href="expedicion-aventura.html#rapel"><div class="etiqueta">Rapel</div></a>
+                    <a href="expedicion-aventura.html#tirolina"><div class="etiqueta">Tirolina</div></a>
+                    <a href="expedicion-aventura.html#camping"><div class="etiqueta">Campamento</div></a>
+                    <a href="expedicion-aventura.html#torrentismo"><div class="etiqueta">Torrentismo</div></a>
+                    <a href="expedicion-aventura.html#caminata"><div class="etiqueta">Caminata</div></a>
+                    <a href="expedicion-aventura.html#caminata"><div class="etiqueta">Paramo</div></a>
+                    <a href="expedicion-aventura.html#kayak"><div class="etiqueta">Kayak</div></a>
+                    <a href="expedicion-aventura.html#espeologia"><div class="etiqueta">Espeologia</div></a>
+                    <a href="expedicion-aventura.html#rafting"><div class="etiqueta">Rafting</div></a>
+                    <a href="servicios.html#educacion"><div class="etiqueta">Educación</div></a>
+                    <a href="servicios.html#educacion"><div class="etiqueta">Vivencial</div></a>
+                    <a href="servicios.html#empresarial"><div class="etiqueta">Fortalecimiento</div></a>
+                    <a href="servicios.html#empresarial"><div class="etiqueta">Empresarial</div></a>
+                    <a href="servicios.html#entrenamiento"><div class="etiqueta">Entrenamiento</div></a>     
+                    <a href="servicios.html#entrenamiento"><div class="etiqueta">Personalizado</div></a>
+                    <a href="servicios.html#vacaciones"><div class="etiqueta">Vacaciones</div></a>
+                    <a href="servicios.html#vacaciones"><div class="etiqueta">Recreativas</div></a>
+                    <a href="servicios.html#discapacidad"><div class="etiqueta">Atención</div></a>
+                    <a href="servicios.html#discapacidad"><div class="etiqueta">Discapacidad</div></a>
+                    <a href="servicios.html#discapacidad"><div class="etiqueta">Mental</div></a>  
+                    <a href="servicios.html#institucional"><div class="etiqueta">Fortalecimiento</div></a>
+                    <a href="servicios.html#institucional"><div class="etiqueta">Institucional</div></a>
+                </div>
+                <div class="otro">
+                    <h3 class="titulo">Mapa de Sitio</h3>
+                    <ul class="grupo_mapa_sitio">
+                        <li class="link_mapa_sitio"><a href="#cabecera">Expedición Aventura</a></li>
+                        <li class="link_mapa_sitio"><a href="servicios.html">Servicios</a></li>
+                        <li class="link_mapa_sitio"><a href="../index.html#section_tu_reto">Tu Reto</a></li>
+                        <li class="link_mapa_sitio"><a href="galeria.html">Galeria</a></li>
+                        <li class="link_mapa_sitio"><a href="#contacto">Contacto</a></li>                                            
+                    </ul>
+                    <h3 class="titulo">Contactenos</h3>
+                    <a href="https://www.facebook.com/turetoturismoaventura" title="facebook" target="_blank">
+                        <div class="fa-stack fa-lg" style="float: left;">
+                            <i class="fa fa-circle fa-stack-2x" style="color:#3B5998; text-shadow: 0px 0px black;"></i>
+                            <i class="fa fa-facebook fa-stack-1x fa-inverse" style="text-shadow: 0px 0px black;"></i>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/TURETODEPORTE" title="twitter" target="_blank">
+                        <div class="fa-stack fa-lg" style="float: left;">
+                            <i class="fa fa-circle fa-stack-2x" style="color:#4099FF; text-shadow: 0px 0px black;"></i>
+                            <i class="fa fa-twitter fa-stack-1x fa-inverse" style="text-shadow: 0px 0px black;"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCH-j2xI2V_78VvQ8arL0v4g" title="youtube" target="_blank">
+                        <div class="fa-stack fa-lg" style="float: left;">
+                            <i class="fa fa-circle fa-stack-2x" style="color:#E52D27; text-shadow: 0px 0px black;"></i>
+                            <i class="fa fa-youtube fa-stack-1x fa-inverse" style="text-shadow: 0px 0px black;"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+			<div class="contenedor_footer contenedor_footer_index contenedor_footer_768" style="padding: 5px;">
+				<p>Desarrollado por Julian Barragan - <a href="mailto:julbarg@gmail.com" style="display:initial; text-decoration: underline;">julbarg@gmail.com</a> - 312 308 9218</p>
+			</div>
+        </footer>    
+
+</html>

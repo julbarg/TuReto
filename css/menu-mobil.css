@@ -1,0 +1,273 @@
+#panel_menu_mobil{
+    background-color: transparent;
+}
+#flip{
+    height: 47px;
+    background-color: #1A1A1C;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#panel_menu_mobil{
+    text-align: left;
+    display:none;
+}
+div#icon_menu{
+    float: right;
+    cursor: pointer;
+}
+div#icon_menu, #icon_menu img{
+    padding: 4px 7px;
+}    
+ul.menu_mobil {
+    position: relative;
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;                
+}
+li.item_menu_mobil {
+    padding-left: 25px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #333333;
+    font-size: 16px;    
+    font-weight:lighter; 
+    background-color: rgb(26,26,28);
+}
+.item_menu_mobil:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.grupo_mapa_sitio a {
+    color: #FFF;
+}
+ul.menu_mobil a{
+    color: white;
+}
+ul.menu_mobil{
+    margin: 0px;
+}
+nav#menu_principal_mobil{
+    top: 0;
+    z-index: 999;
+    width: 250px;
+    position: fixed;
+}
+.item_menu_mobil a.list-group-item {
+    padding: 5px !important;
+}
+#menu_principal_mobil{
+    display: none;
+}
+/*1024*/
+@media only screen and (max-width: 1024px) {
+    section#aventura {
+        width: 987px;
+    }
+    div.escoger {
+        margin-right: 65px;
+    }
+    .contenedor_footer_index {
+        width: 1007px;
+    }
+    #menu_principal_mobil{
+        display: block;
+    }
+    .menu_principal{
+        display: none;
+    }
+    section#section_servicios {
+        padding-top: 30px;
+        width: 987px;
+    }
+    div#expedicion {
+        margin-left: -40px;
+    }
+    div#entrenamiento {
+        margin-left: -8px;
+    }
+    section#section_tu_reto {
+        background-size: cover;
+        width: 1007px;
+    }
+    .contenedor_tu_reto {
+        padding-top: 24px;
+    }
+    div#icon_menu {
+        float: left;
+    }
+    .color_white{
+        color:#FFF;
+    }
+    .fa-3x {
+        padding: 2px 10px;
+    }
+    #flip {
+        height: 57px;
+    }
+    a.list-group-item {
+        font-size: 28px;
+    }
+    nav#menu_principal_mobil {
+        width: 1024px;
+    }
+    .cabecera h2.titulo_slogan_sub {
+        width: 339px;
+    }
+    .cabecera h2.titulo_slogan {
+        width: 353px;
+    }
+    nav.menu_principal {
+        display: none;
+    }
+    .contenedor_servicios {
+        width: 995px;
+    }
+    div.contenido_tu_reto {
+        width: 316px;
+    }
+    div.contenedor_tu_reto {
+        width: 980px;
+    }
+    .footer_index {
+        width: 1007px;
+    }
+    .cabecera div.logo {
+        margin-top: -390px;
+    }
+    .cabecera {
+        width: 1007px;
+    }
+}
+/*768*/
+@media only screen and (max-width: 768px) {
+    section#aventura {
+        width: 720px;
+    }
+    section#section_tu_reto {
+        width: 740px;
+    }
+    .contenedor_servicios img {
+        width: 280px;
+    }
+    .contenedor_servicios>a>div{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    div#expedicion {
+        margin-left: 20px;
+    }
+    div#vivencial {
+        margin-left: -15px;
+    }
+
+    section#section_servicios {
+        height: 470px;
+    }
+    header#cabecera {
+        height: 545px;
+    }
+
+    .contenedor_tu_reto {
+        width: 800px;
+    }
+    div.contenido_tu_reto {
+        width: 234px !important;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    p.informacion_tu_reto {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    section#section_servicios {
+        height: 520px;
+        width: 720px;
+        background-size: cover;
+    }
+    .footer_index {
+        width: 740px;
+        height: 470px;
+        background-size: cover;
+    }
+    .section_tu_reto .informacion_tu_reto {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header#cabecera {
+        height: 545px;
+        width: 740px;
+        background-size: cover;
+    }
+    .tags {
+        display: none;
+    }
+    .contenedor_footer_index .informacion {
+        margin-left: 35px;
+    }
+    div#empresarial {
+        margin-left: -94px;
+    }
+    .contenedor_servicios {
+        width: 680px;
+    }
+    div#entrenamiento {
+        margin-top: -23px;
+        margin-left: 39px;
+    }
+    div#vacaciones {
+        margin-top: -23px;
+        margin-left: -12px;
+    }
+    div#discapacidad {
+        margin-top: -23px;
+        margin-left: -14px;
+    }
+    div.contenedor_tu_reto {
+        width: 710px;
+        margin: 0 auto;
+    }
+    h2.titulo_servicio {
+        margin-left: 40px;
+        padding-top: 34px;
+        font-size: 22px;
+    }
+    nav#menu_principal_mobil {
+        width: 740px;
+        position: fixed;
+    }
+    #flip {
+        height: 60px;
+    }
+    a.list-group-item {
+        font-size: 28px;
+    }
+    div#icon_menu {
+        float: left;
+    }
+    #icon_menu img {
+        width: 40px;
+    }
+    .item_menu_mobil a.list-group-item {
+        padding: 10px !important;
+    }
+    .cabecera div.logo {
+        margin-top: -400px;
+    }
+    section#section_servicios {
+        padding-top: 62px;
+    }
+    .color_white{
+        color:#FFF;
+    }
+    .fa-3x {
+        padding: 2px 10px;
+    }
+    .contenedor_footer_768 {
+        width: 740px !important;
+    }
+
+
+}

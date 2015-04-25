@@ -1,0 +1,374 @@
+@CHARSET "ISO-8859-1";
+@font-face {
+    font-family: 'Nimbus Sans Novus Cond D';
+    src: url("../fonts/nimbussannovcond-bol-webfont.ttf");
+}
+@font-face {
+    font-family: 'AR DARLING';
+    src: url("../fonts/ARDARLING.ttf");
+}
+body{
+    font-family: 'Nimbus Sans Novus Cond D';
+    margin: 0px;
+    padding: 0px;   
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.cabecera{  
+    background: url("../image/tureto_inicio.jpg")50% 50% no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:700px;
+}
+.cabecera div.logo{
+    margin-top: -450px;
+    width: 280px;
+    margin-left: 40px;
+}
+.cabecera h1.titulo_logo{
+    font-family: AR DARLING;
+    color: white;
+    font-size: 64px;
+    text-shadow: 5px 5px 10px #000;
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: -20px;
+}
+.cabecera h3.titulo_logo_slogan{
+    color: white;   
+    font-weight: 100;
+    text-align: right;
+    margin-top: -5px;
+}
+
+.triangulo_top_left {
+    width: 0;
+    height: 0;
+    border-top: 500px solid rgba(0,0,0,0.5); 
+    border-right: 600px solid transparent;        
+}
+.cabecera h2.titulo_slogan {
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 10px #000;
+    font-size: 48px;
+    width: 464px;
+    margin-left: 70px;
+    font-weight: 100;
+    margin-top: -180px;
+}
+.cabecera h2.titulo_slogan_sub {
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 10px #000;
+    font-size: x-large;
+    width: 460px;
+    margin-left: 70px;
+    font-weight: 100;
+    margin-top: -40px;
+}
+.cabecera img.img_logo{
+    width: 260px;
+}
+nav.menu_principal{
+    width: 100px;
+    height: 100%;
+    background-color:rgba(56, 56, 69,0.82);   
+    position: fixed;
+    right: 0px;
+    text-align: center;
+    top: 0;
+    z-index: 99;
+}
+.menu_principal_servicios {
+    width: 150px !important;
+}
+.list-group-servicios {
+    width: 150px !important;
+}
+nav.menu_principal>div.logo_menu{
+    background-color: rgb(84,130,53);
+    padding: 20px 3px;
+}
+nav.menu_principal div.logo_menu img{
+    width:90px;   
+}
+nav.menu_principal>div.logo_menu>div.list-group{
+    text-align: left;  
+}
+.section_servicios{
+    height: 650px;
+    background: url("../image/servicios_fondo.jpg") no-repeat fixed; 
+    background-size: cover;
+    padding: 5px 10px;
+    font-family: 'Nimbus Sans Novus Cond D';
+    color: white;
+}
+.section_aventura{
+    height: 550px;
+    background: url("../image/expedicion.jpg") no-repeat fixed; 
+    background-size: cover;
+    padding: 5px 10px;
+    font-family: 'Nimbus Sans Novus Cond D';
+    color: white;
+}
+.section_tu_reto{
+    height: 650px;
+    background: url("../image/servicios_fond.jpg") no-repeat fixed; 
+    background-size: cover;
+    font-family: 'Nimbus Sans Novus Cond D';
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+.contenedor_servicios{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#fortalecimiento_institucional{
+    width: 450px;
+    height: 300px;    
+    position: relative;
+    display: block;
+    float: left;
+}
+div#vivencial{
+    width: 450px;
+    height: 300px;    
+    position: relative;
+    display: table;
+    float: left;
+    margin-left: -177px;
+}
+div#empresarial{
+    width: 450px;
+    height: 300px;    
+    position: relative;
+    display: table;
+    float: left;
+    margin-left: -178px;
+}
+h2.titulo_servicio{
+    margin-top: -107px;
+    margin-left: -34px;
+    text-shadow: 1px 1px #000;
+    position: relative;
+    color: #FFF;
+    font-size: 41px;
+    text-align: center;
+}
+.imagen_servicio{
+    position: relative;
+    width: 410px;
+}
+section.section_servicios>h2.titulo_section_servicios {
+    color: rgb(255,255,255);
+    font-size: 42px;
+    width: 500px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    margin: 0px;
+    text-shadow: 3px 2px #000;
+    background-color: rgba(0,0,0,0.6);
+    padding: 2px;
+    padding-left: 37px;
+}
+div#entrenamiento{
+    margin-top: -27px;
+    margin-left: 136px;
+    width: 450px;
+    height: 300px;    
+    position: relative;
+    display: block;
+    float: left;
+}
+div#vacaciones{
+    margin-top: -27px;
+    margin-left: -174px;
+    width: 450px;
+    height: 300px;    
+    position: relative;
+    display: block;
+    float: left;
+}
+div#discapacidad{
+    margin-top: -27px;
+    margin-left: -174px;
+    width: 450px;
+    height: 300px;    
+    position: relative;
+    display: block;
+    float: left;
+}
+footer{
+    width:100%;
+    height: 470px;
+    background-color: #1A1A1C;	
+    color: white;    
+}
+.contenedor_footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    padding-top: 40px;
+    display: table;
+}
+.contenedor_footer .informacion{
+    width: 300px;
+    float: left;
+    padding: 0px 10px;
+}
+.contenedor_footer .tags{
+    width: 300px;
+    float: left;
+    padding: 0px 10px;
+}
+.contenedor_footer .otro{
+    width: 300px;
+    float: left;
+    padding: 0px 10px;
+}
+footer h1.titulo_logo{
+    font-family: 'AR DARLING';
+    color: white;
+    font-size: 48px;
+    text-shadow: 5px 5px 10px #000;
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: -18px;
+}
+footer h3.titulo_logo_slogan{
+    color: white;   
+    font-weight: 100;
+    margin-top: -5px;
+    font-size: 15px;
+    text-align: center;
+}
+footer .img_logo{
+    width: 180px;
+}
+footer .informacion_contacto{
+    color: white;   
+    text-align: left;   
+    font-size: 18px;
+    margin: 2px;
+    font-weight: lighter;
+}
+footer .titulo{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 24px;
+}
+footer .etiqueta{
+    background-color: rgb(84,130,53);
+    padding: 5px 10px;
+    display: block;
+    float: left;
+    margin: 10px 5px 0px 5px;
+    font-size: 15px;
+    text-shadow: rgb(0, 0, 0) 0px 1px;
+}
+ul.grupo_mapa_sitio {
+    position: relative;
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+li.link_mapa_sitio {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-size: 20px;
+}
+section.section_tu_reto{
+    width: 100%;
+    height: 400px;
+    background: url("../image/tu_reto.jpg")50% 0; 
+    background-size: 100%;
+}
+div.contenedor_tu_reto{
+    width: 1024px;
+    margin: 0 auto;
+}
+div.contenido_tu_reto{
+    width: 330px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.6);
+    float: left;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.section_tu_reto .titulo{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+}
+.section_tu_reto .informacion_tu_reto{
+    color: white;   
+    text-align: left;   
+    font-size: 16px;
+    margin: 2px;
+    font-weight: lighter;  
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.tags a, .grupo_mapa_sitio a{
+    color: #FFF;
+}
+
+h3.titulo_aventura{
+    font-size: 28px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    margin: 0px;
+    text-shadow: 3px 2px #000;
+    padding: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0px;
+}
+h3.slogan_aventura{
+    font-size: 42px;
+    font-weight: 100;
+    text-shadow: 3px 2px #000;
+    margin-bottom: 2px;
+}
+h4.slogan_aventura{
+    font-size: 28px;
+    font-weight: 100;
+    text-shadow: 3px 2px #000;
+    margin-top: 2px;
+}
+div.contenido_aventura {
+    width: 260px;
+    height: 400px;
+    float: left;
+    display: block;
+    margin-left: 20px;
+    margin-right: 5px;
+    padding-top: 41px;
+}
+div.escoger {
+    float: right;
+    margin-right: 200px;
+}
+.mas_informacion{
+    background-color: rgb(84,130,53); 
+    font-size: 28px; 
+    text-align: center;
+}
+a{
+    color: white;
+    text-shadow: 3px 2px #000;
+}

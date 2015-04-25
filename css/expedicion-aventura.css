@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'Nimbus Sans Novus Cond D';
+    src: url("../fonts/nimbussannovcond-bol-webfont.ttf");
+}
+@font-face {
+    font-family: 'AR DARLING';
+    src: url("../fonts/ARDARLING.ttf");
+}
+body{
+    background-color: #333333;
+}
+section {
+    height: 470px;
+    color: white;
+}
+.section_rapel{
+    background: url("../image/aventura/rapel.jpg") 50% 40% no-repeat fixed;
+    background-size:100%;    
+}
+.section_tirolina{
+    background: url("../image/aventura/tirolina.jpg") 50% 60% no-repeat fixed;
+    background-size:100%;     
+}
+.section_campamento{
+    background: url("../image/aventura/camping.jpg") 50% 0 no-repeat fixed;
+    background-size:100%;       
+}
+.section_torrentismo{
+    background: url("../image/aventura/torrentismo.jpg") 50% no-repeat fixed;
+    background-size:100%;
+}
+.section_kayak{
+    background: url("../image/aventura/kayak.jpg") 50% no-repeat fixed;
+    background-size:100%;
+}
+.section_espeologia{
+    background: url("../image/aventura/espeologia.jpg") 50% no-repeat fixed;
+    background-size:100%;
+}
+.section_rafting{
+    background: url("../image/aventura/rafting.jpg") 50% no-repeat fixed;
+    background-size:100%;
+}
+.section_caminata{
+    background: url("../image/aventura/caminata.jpg") 50% no-repeat fixed;
+    background-size:100%;
+}
+div.div_aventura_descripcion {
+    height: 459px;
+    width: 560px;
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 11px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 25px;
+}
+h2.titulo_servicios_descripcion {
+    font-family: 'Nimbus Sans Novus Cond D';
+    color: rgb(255,255,255);
+    font-size: 38px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    margin: 0px;
+    text-shadow: 3px 2px #000;
+    padding: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0px;
+}
+h3.titulo_secundario {
+    font-size: 28px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    margin: 0px;
+    text-shadow: 3px 2px #000;
+    padding: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0px;
+}
+p.parrafo_servicios_descripcion {
+    font-size: 17px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px #000;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+span.ubicacion {
+    font-size: 16px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px #000;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+ul.itineratio {
+    font-family: 'Nimbus Sans Novus Cond D';
+    color: rgb(255,255,255);
+    font-size: 16px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px #000;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+.menu_educacion{
+    display: block;    
+    background: url("../image/educacion_vivencial.png");
+    color: #FFF;
+    font-family: 'Nimbus Sans Novus Cond D';
+    background-size: cover;    
+}
+.menu_servicios{
+    display: block;
+    position: fixed;
+    height: 70px;
+
+}
+.imagen_servicio_menu{
+    position: relative;
+    height: 70px;
+}
+footer{
+    height: 400px;
+    background-color: #333333;    
+}
+.cabecera_servicios{
+    height: 0px;
+}
+.menu_principal_servicios{
+    width: 150px !important;
+}
+.list-group-servicios{
+    width: 150px !important;
+}
+.footer_servicios{
+    padding-top: 25px; 
+    margin-left: 175px; 
+    margin-right: 0;
+}
+.mas_informacion{
+    background-color: rgb(84,130,53); 
+    font-size: 28px; 
+    text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+    .section_rapel {
+        padding-top: 55px;
+    }
+    header#cabecera {
+        display: none;
+    }
+    .section_espeologia {
+        background-size: cover;
+    }
+    .section_rafting {
+        background-size: cover;
+    }
+    .section_kayak {
+        background-size: cover;
+    }
+    .contenedor_footer.footer_servicios {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedor_footer.footer_servicios {
+        width: 874px;
+    }
+    .contenedor_footer .informacion {
+        width: 250px;
+        padding: 0px 5px;
+    }
+    .contenedor_footer .tags {
+        width: 250px;
+        padding: 0px 5px;
+    }
+    .contenedor_footer .otro {
+        width: 250px;
+        padding: 0px 5px;
+    }
+    footer {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    footer {
+        width: 735px !important;
+    }
+    .contenedor_footer.footer_servicios {
+        width: 735px;
+    }
+    .contenedor_footer .tags {
+        display: none;
+    }
+    .contenedor_footer .informacion {
+        padding: 0px 20px;
+    }
+    h2.titulo_servicios_descripcion {
+        font-size: 24px;
+    }
+    p.parrafo_servicios_descripcion {
+        font-size: 16px;
+    }
+    .mas_informacion{
+        font-size: 28px; 
+    }
+    .section_rapel{
+        background-size: cover;
+        width:735px;
+    }
+    .section_tirolina{
+        background-size: cover;
+        width:735px;
+    }
+    .section_campamento{
+        background-size: cover;
+        width:735px;
+    }
+    .section_torrentismo{
+        background-size: cover;
+        width:735px;
+    }
+    .section_kayak{
+        background-size: cover;
+        width:735px;
+    }
+    .section_espeologia{
+        background-size: cover;
+        width:735px;
+    }
+    .section_rafting{
+        background-size: cover;
+        width:735px;
+    }
+    .section_caminata{
+        background-size: cover;
+        width:735px;
+    }
+    nav.menu_principal {
+        background-color: rgba(56, 56, 69,1);
+    }
+    footer {
+        width: 100% !important;
+    }    
+}
+
